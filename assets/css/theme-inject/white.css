@@ -1,0 +1,12 @@
+body,#novel_wrapper,#header_main,#chapter_content{
+background:#FFFFFF;
+color: #333;
+}
+ul#head_nav {
+    border-top: 1px solid #BFD2DF;
+	border-bottom: 1px solid #C9DDEB;
+    background: #C9DDEB
+}
+ul#head_nav li a {
+	color: #666;
+}
