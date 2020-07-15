@@ -1,155 +1,116 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Hyalina Project.</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
-		<meta name="theme-color" content="#10171E">
-		<link href="assets/image/favicon.ico" rel="icon" type="image/x-icon" />
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css" integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
-		<link rel="stylesheet" href="assets/css/minimal.css">
-		<script type="text/javascript" src="assets/js/cookies.js"></script>
-	</head>
-	<body>
-		<div id="novel_wrapper">
-			<div id="header_main">
-				<a id="login"><i class="fa fa-gg-circle"></i> Hyalina</a>
-				<a id="bottom_link">web novel</a>
-			</div>
-			<div class="novelview_navi">
-				<ul id="head_nav">
-					<li><a href="https://twitter.com/dzktd"><i class="fa fa-twitter"></i> twitter</a></li>
-					<li><a href="https://youtube.com/dzktd"><i class="fa fa-youtube"></i> youtube</a></li>
-					<li><a href="https://discord.gg/YsXRDdH"><i class="fa fa-discord"></i> discord</a></li>
-				</ul>
-			</div>
-		<!-- !!!!!!!!!!!!!! HYALINA WEB NOVEL !!!!!!!!!!!!!! 
-			<div class="novel_title">
-				ＨＹＡＬＩＮＡ
-			</div>
-			<div class="novel_writername">
-				Author：<a href="https://twitter.com/dzktd">dzktd</a>
-			</div>
-			<div id="novel_ex">
-				『I will never accept this world.』
-			</div>
-			<div class="novel_sublist">
-				<ul>
-					<li class="chapter">—ｆｒｏｍ　ｔｈｅ　ｄａｒｋｎｅｓｓ—</li>
-					<li>
-						<a href="darkness/prologue">Prologue　『Death and Sorrow』</a>
-						<br/>
-						<span class="kaikou">2019/06/15 22:00</span>
-					</li>
-					<li>
-						Chapter 1　　『Past the Wall』
-						<br/>
-						<span class="kaikou">2019/07/15 22:00</span>
-					</li>
-				</ul>
-			</div>
-			-->
-			<!-- !!!!!!!!!!!!!! ONE STEP UNDER RAIN WEB NOVEL !!!!!!!!!!!!!! -->
-			<div class="novel_title">
-				ＩＮ　Ａ　ＷＯＲＬＤ<br/>
-				ＹＯＵ　ＡＲＥＮ＇Ｔ　ＩＮ
-			</div>
-			<div class="novel_writername">
-				Author：<a href="https://twitter.com/dzktd">dzktd</a>
-			</div>
-			<div id="novel_ex">
-				※ Web Novel adaptation of the 『ONE STEP UNDER RAIN』 song series.
-				<p/>
-				«SONG SERIES»
-				<br/>
-				♫ <a href="https://youtu.be/sahhx1IV0hg">【Eleanor Forte】 One Step at a Time</a>
-				<br/>
-				♫ <a href="https://youtu.be/KDIoEQsouzg">【Eleanor Forte】 Your Lie Under the RAIN</a>
-				<br/>
-				♫ <a href="https://youtu.be/l3MM5WhToss">【Eleanor Forte】 suicide.</a>
-				<br/>
-				♫ 【Eleanor Forte】 In a World You Aren't in - TBA</a>
+   <head>
+      <!-- Page Title -->
+      <title>HYALINA SERIES</title>
+      <!-- Viewport -->
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+      <!-- Theme Color -->
+      <meta name="theme-color" content="#5755d9">
+      <!-- Favicon Location -->
+      <link href="../assets/image/favicon.ico" rel="icon" type="image/x-icon" />
+      <!-- Page Information -->
+      <meta name="description" content="The HYALINA SERIES is a multimedia project by amateur musician and writer @dzktd, featuring themes such as regret and losses; but more importantly, moving forwards; choosing to live. In a World You Aren't in is a story under the series.">
+      <meta name="author" content="dzktd">
+      <meta property="og:url" content="https://hyalina.us.to/underrain">
+      <meta property="og:title" content="HYALINA SERIES - In a World You Aren't in">
+      <meta property="og:description" content="The HYALINA SERIES is a multimedia project by amateur musician and writer @dzktd, featuring themes such as regret and losses; but more importantly, moving forwards; choosing to live. In a World You Aren't in is a story under the series.">
+      <!-- Compiled and minified CSS for ForkAwesome -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css" integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
+      <!-- Compiled and minified CSS for Spectre -->
+      <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
+      <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-exp.min.css">
+      <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-icons.min.css">
+      <!-- Compiled and minified CSS for simple cookies script -->
+      <script type="text/javascript" src="assets/js/cookies.js"></script>
+   </head>
+   <style>
+      body{
+      max-width:640px;
+      font-size: 14px;
+      text-align:justify;
+      margin:auto;
+      line-height:1.6
+      }
+      #novel_ex{
+      margin: 0 10px 10px 10px;
+      text-align:justify;
+      }
+      .date{display:block;
+      font-size:80%;margin-left:8px}
+      .chapter-link:hover{color:#302ecd !important;}
+   </style>
+   <body>
+      <!-- Navigation Bar -->
+      <header class="navbar" style="margin:12px">
+         <section class="navbar-section">
+            HYALINA SERIES
+         </section>
+         <section class="navbar-section">
+            <a href="#" class="btn btn-link">Catalogue</a>
+            <a href="#" class="btn btn-link">About</a>
+         </section>
+      </header>
+      <!-- Novel Card Container -->
+	  
+	  <!-- Novel Card Container -->
+      <div class="card" style="border:0px">
+         <div class="card-header">
+            <div class="card-title h5">HYALINA SERIES</div>
+            <div class="card-subtitle text-gray">multimedia project</div>
+         </div>
+		 </div>
+            <div class="divider text-center" data-content="CATALOGUE"></div><BR>
+	  
+	  <!-- gapless columns -->
+<div class="columns">
+  <div class="column col-6">
+  
 
-			</div>
-			<div class="novel_sublist">
-				<ul>
-					<li class="chapter">—ｄｅｅｐｅｓｔ　ｒｅｇｒｅｔ—</li>
-						<div id="novel_ex">
-					I’m left only with the skies we gazed at; an empty promise swore by our name: a lie under the rain.
-					Had I reachen out to him during that night, perhaps he’d still be here...
-					and these days would have never been disposed of.
-					Let me tell you the story of my deepest regret.
-						</div>
-						<div id="novel_ex">
-						<span class="attention">＜R15＞</span>
-				The following work contains explicit themes such as
-				suicide and self-harm.
-				</div>
-					<li>
-						<a href="underrain/prologue">Prologue　『ONE STEP AT A TIME』</a>
-						<br/>
-						<span class="kaikou">Published 2019/11/01</span>
-						<br/>
-						<span class="kaikou">Revised 2020/04/12</span>
-					</li>
-					<li>
-						Chapter 1　　『UNDER RAIN LIES』
-						<br/>
-						<span class="kaikou">To Be Published 2020/04/14</span>
-					</li>
-					<li>
-						Chapter 2　　『skies above us』
-					</li>
-					<li>
-						Chapter 3　　『wish upon a star』
-					</li>
-					<li>
-						Chapter 4　　『by our name』
-					</li>
-					<li>
-						Chapter 5　　『RE:FAREWELL』
-					</li>
-					<li>
-						Epilogue　『BEYOND FAREWELL』
-					</li>
-					<li class="chapter">—ｔｈｅ　ｒｅａｓｏｎ—</li>
-						<div id="novel_ex">
-					I was given everything by the hands of a stranger—from things known to those unknown—but more so,
-					a so-called sense of “love” amidst disposable days:
-					a sense of being needed, unable to be discarded... albeit, of course, it is mere make-believe.
-					Let me tell you the reason behind farewell.
-						</div>
-						<div id="novel_ex">
-						<span class="attention">＜R15＞</span>
-				The following work contains explicit themes such as
-				suicide and self-harm.
-				</div>
-					<li>
-						Prologue　『20 Minutes』
-					</li>
-					<li>
-						Chapter 1　　『Low-Profile』
-					</li>
-					<li>
-						Chapter 2　　『by the hands of a stranger』
-					</li>
-					<li>
-						Chapter 3　　『the sky we gazed at』
-					</li>
-					<li>
-						Chapter 4　　『make-believe』
-					</li>
-					<li>
-						Chapter 5　　『disposable days』
-					</li>
-					<li>
-						Epilogue　『skies between us』
-					</li>
-				</ul>
-			</div>
-			<center>
-				<a href="javascript:window.scrollTo(0,0);">top</a>
-			</center>
-			<br/>
-		</div>
-	</body>
+      <div class="card">
+  <div class="card-image">
+    <img src="assets/image/underrain.webp" class="img-responsive">
+  </div>
+  <div class="card-header">
+    <div class="card-title h5">In a World You Aren't in</div>
+    <div class="card-subtitle text-gray">songs & web novel</div>
+  </div>
+  <div class="card-body">
+    Having lost all reasons to live for, Brent decides to end his life.
+	However, stopped by a strange boy named Nate, they set on a promise:
+	"whenever this world gives us pain unable to bear, we'll meet up again, on this same place, under the same sky".
+	Bounded by that—two strangers connect.
+
+  </div>
+  <div class="card-footer">
+    <button class="btn btn-primary" onclick="location.href='underrain';">Read</button>
+  </div>
+</div></div>
+<div class="column col-6">
+      <div class="card">
+  <div class="card-image">
+    <img src="assets/image/colorless.webp" class="img-responsive">
+  </div>
+  <div class="card-header">
+    <div class="card-title h5">COLORLESS</div>
+    <div class="card-subtitle text-gray">web novel</div>
+  </div>
+  <div class="card-body">
+This title is currently unavailiable.
+  </div>
+  <div class="card-footer">
+    <button class="btn disabled btn-primary">Read</button>
+  </div>
+</div>
+</div>
+</div>
+<BR>
+      <div class="divider text-center"></div>
+      <center style="margin-bottom:10px">
+      <a href="https://youtube.com/dzktd" class="btn btn-link">YouTube</a>
+      <a href="https://twitter.com/dzktd" class="btn btn-link">Twitter</a>
+      <a href="https://discord.gg/YsXRDdH" class="btn btn-link">Discord</a>
+      <a href="https://dzktd.bandcamp.com" class="btn btn-link">Bandcamp</a>
+      </center>
+   </body>
 </html>
